@@ -5,4 +5,5 @@ def map(array)
   while i < array.length
   new.push (yield (array[1]))
  end
+ new
 end
